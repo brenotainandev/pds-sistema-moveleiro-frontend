@@ -1,0 +1,16 @@
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cardFather {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardFather img {
+  height: 80px;
+}
