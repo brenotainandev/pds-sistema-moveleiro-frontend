@@ -20,7 +20,7 @@ const InputArea = styled.div`
 `;
 
 const Input = styled.input`
-  width: 120px;
+  width: 800px;
   padding: 0 10px;
   border: 1px solid #bbb;
   border-radius: 5px;
