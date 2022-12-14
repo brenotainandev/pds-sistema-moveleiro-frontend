@@ -5,6 +5,7 @@ import Grid from "../components/GridFormCustomer";
 import FormCustomerGet from "../components/FormCustomerGet";
 import { useEffect, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
+import Navbar from "../components/Navbar";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
@@ -39,6 +40,7 @@ function Product() {
 
   return (
     <>
+      <Navbar />
       <Container>
         <Title>CLIENTES</Title>
         <Form onEdit={onEdit} setOnEdit={setOnEdit} getCustomer={getCustomer}/>

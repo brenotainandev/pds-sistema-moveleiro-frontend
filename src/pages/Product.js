@@ -2,6 +2,7 @@ import GlobalStyle from "../styles/global";
 import styled from "styled-components";
 import Form from "../components/Form"
 import Grid from "../components/Grid";
+import Navbar from "../components/Navbar";
 import FormProduct from "../components/FormProduct";
 import { useEffect, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
@@ -39,6 +40,7 @@ function Product() {
 
   return (
     <>
+      <Navbar />
       <Container>
         <Title>PRODUTOS</Title>
         <Form onEdit={onEdit} setOnEdit={setOnEdit} getProducts={getProducts}/>
