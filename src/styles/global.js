@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
   * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'poppins', sans-serif;
   }
@@ -11,7 +11,6 @@ const Global = createGlobalStyle`
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
     background-color: #f2f2f2;
   }
 `;
